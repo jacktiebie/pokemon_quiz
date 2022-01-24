@@ -1,0 +1,5 @@
+/*Removing added padding and margin*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
