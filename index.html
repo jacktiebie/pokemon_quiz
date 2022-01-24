@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +9,22 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>Pokemon Quiz</title>
 </head>
+
+
 <body>
-    <h1 id="title">Pokemon Quiz</h1>
-    <div>
-        <img id="pokemonPic" src="/images/guess_1.jpg" alt="Photo of Pokemon">
+    <div class="container">
+        <h1 id="title">Pokemon Quiz</h1>
+        <div>
+            <img id="pokemonPic" src="https://images.unsplash.com/photo-1630887961979-f941d415a2cf?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzA1OTgxMQ&ixlib=rb-1.2.1&q=85" alt="Photo of Pokemon">
+        </div>
+
+        <button onclick = "startClick()">Start</button>
+        <button onclick = "startReset()">Reset</button>
+
     </div>
-
-    <button id="button_start">Start</button>
-
-<!--linking javascript to index.html-->
-<style src="script.js"></style>
+    <!--linking javascript to index.html-->
+    <style src="script.js"></style>
 
 </body>
+
 </html>
